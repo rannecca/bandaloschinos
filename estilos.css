@@ -1,0 +1,298 @@
+body{
+	font-family: open sans, sans serif;
+	color: #1c1c1c;	
+	text-align: center;
+	text-decoration: none;
+	width: 800px;
+	margin: 0 auto;
+
+
+}
+
+a {
+	text-decoration: none;
+	color: #1c1c1c;
+
+}
+
+a:hover {
+	color: #f0e751;
+	cursor: pointer;
+}
+
+.menu {
+	font-family: Abril Fatface;
+	color: #1c1c1c;	
+	background-color: white;
+	font-size: 18px;
+	text-align: right;
+	text-decoration: none;
+	word-spacing: 30px;
+	overflow: auto;
+	position:relative;
+	display:  inline-block;
+
+
+}
+
+.menu2 {
+	padding: 15px 0;
+	position: sticky; 
+	top:0px;
+	background-color: white;
+	height: 30px;
+
+}
+
+.fixed{
+	position: fixed;
+	top: 0;
+	width: 800px;
+
+}
+
+
+.logo{
+	align-content: left;
+	float: left;
+	width: 15%;
+	align-content: top;
+	padding-bottom: 20px;
+
+}
+
+
+.header {
+	align-content: left;
+	background-image: url("img/bandaloschinos10.png");
+	background-repeat: no-repeat; 
+	background-position: left;
+	background-size: 100%;
+	overflow: auto;
+	clear: both;
+	padding: 100px 0 ;
+	margin-top:60px;
+
+}
+
+
+.header2 {
+	align-content: center;
+	background-repeat: no-repeat; 
+	background-position: center;
+	clear: both;
+	width: 55%;
+
+}
+
+
+.header3 {
+	align-content: left;
+	background-image: url("img/bandaloschinos9.png");
+	background-repeat: no-repeat; 
+	background-position: left;
+	background-size: 100%;
+	overflow: auto;
+	clear: both;
+	padding: 100px 0 ;
+
+}
+
+
+.header4 {
+	align-content: left;
+	background-image: url("img/bandaloschinos8.png");
+	background-repeat: no-repeat; 
+	background-position: left;
+	background-size: 100%;
+	overflow: auto;
+	clear: both;
+	padding: 100px 0 ;
+
+}
+
+
+.header5 {
+	align-content: left;
+	background-image: url("img/bandaloschinos7.png");
+	background-repeat: no-repeat; 
+	background-position: left;
+	background-size: 100%;
+	overflow: auto;
+	clear: both;
+	padding: 100px 0 ;
+
+}
+
+
+.header6 {
+	align-content: left;
+	background-image: url("img/bandaloschinos6.png");
+	background-repeat: no-repeat; 
+	background-position: left;
+	background-size: 100%;
+	overflow: auto;
+	clear: both;
+	padding: 100px 0 ;
+
+}
+
+
+.header7 {
+	align-content: left;
+	background-image: url("img/somosbandalos6.png");
+	background-repeat: no-repeat; 
+	background-position: left;
+	background-size: 100%;
+	overflow: auto;
+	clear: both;
+	padding: 100px 0 ;
+	background-size: cover;
+
+
+}
+
+
+#bandalos {
+	font-family: Abril Fatface;
+	color: #1c1c1c;	
+	background-color: #fafafa;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	width: calc(100% - 40px);
+	padding: 20px;
+	letter-spacing: 2px;
+
+}
+
+.secciones {
+	width: 95%;
+	overflow: auto;
+	background-color: white;
+	padding:10px;
+
+}
+
+.caja1 {
+	width: 33.3%;
+	float: left;
+	align-content: center;
+
+
+}
+
+.caja2 {
+	width: calc(66.7% - 4px);
+	float: left;
+	align-content: center;
+	margin: 2px;
+
+}
+
+
+h2 { font-family: Abril Fatface;
+	color: black;	
+	background-color: white;
+	font-size: 25px;
+	text-align: left;
+	text-decoration: none;
+	padding-left: 10px;
+	margin-top: 5px;
+
+}
+
+p {
+	font-family: open sans;
+	color: #1c1c1c;	
+	background-color: white;
+	font-size: 16px;
+	text-align: left;
+	text-decoration: none;
+	padding: 10px;
+	margin: auto;
+}
+
+
+.imagenes {
+	width: 95%;
+	margin: auto;
+
+}
+
+
+ul { list-style: none; }
+
+.desplegable {
+		font-family: Abril Fatface;
+	color: #1c1c1c;	
+	background-color: white;
+	font-size: 15px;
+	text-align: right;
+	text-decoration: none;
+	overflow: auto;
+	display: none; 
+	
+
+}
+
+.desplegable:hover{
+	color: #f0e751;
+	cursor: pointer;
+	display: block;
+
+}
+
+li { position: absolute;
+	display: none;
+	min-width:140px;
+	background-color:#000;
+	text-decoration:none;
+	padding:10px 12px;
+
+
+
+}
+
+
+<!--footer-->
+.footer { 
+	background-color: #76898b;
+	font-size: 7px;
+	color: white;
+	text-align: left;
+	word-spacing: 30px;
+	width: 100%;
+	
+	
+}
+
+.footer2{
+	font-size: 17px;
+	color: white;
+	margin: 5px;
+	padding: 5px;
+	background-color: #76898b;
+	line-height: 18px;
+	
+   
+}
+
+
+.fb,.insta,.twitter,.youtube { 
+	font-size: 30px;
+	color: white;
+	margin: 12px;
+	padding: 10px;
+
+}
+
+.form { 
+	background-color: #468c92;
+	size: 14px;
+	color: white;
+	text-align: center;
+	
+}
+
+
