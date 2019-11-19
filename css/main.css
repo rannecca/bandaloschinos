@@ -1,0 +1,15 @@
+.insta {
+  color: #f0e751;
+  font-size: 30px;
+  margin: 12px;
+  padding: 10px; }
+
+.boton {
+  font-family: "Abril Fatface";
+  font-size: 12px;
+  background-color: #f0e751;
+  color: #1c1c1c;
+  border: none;
+  width: 120px;
+  height: 30px;
+  border-radius: 15px; }

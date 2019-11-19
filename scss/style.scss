@@ -1,0 +1,24 @@
+$colortipografia: #1c1c1c;
+$amarillo: #f0e751;
+$tipografia: "Abril Fatface";
+
+
+.insta {
+	color:$amarillo;
+	font-size: 30px;
+	margin: 12px;
+	padding: 10px;
+}
+
+.boton {
+ font-family:$tipografia;
+ font-size: 12px;
+ background-color:$amarillo;
+ color: $colortipografia;
+ border:none;
+ width:120px;
+ height:30px;
+border-radius:15px; 
+
+}
+
