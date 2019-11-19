@@ -3,7 +3,6 @@ body{
 	color: #1c1c1c;	
 	text-align: center;
 	text-decoration: none;
-	width: 800px;
 	margin: 0 auto;
 
 
@@ -29,7 +28,7 @@ a:hover {
 	text-decoration: none;
 	word-spacing: 30px;
 	overflow: auto;
-	position:relative;
+	position:relative right;
 	display:  inline-block;
 
 
@@ -40,14 +39,17 @@ a:hover {
 	position: sticky; 
 	top:0px;
 	background-color: white;
+	width:  65%;
 	height: 30px;
+	text-align: right;
+
 
 }
 
 .fixed{
 	position: fixed;
 	top: 0;
-	width: 800px;
+	width: 100%;
 
 }
 
@@ -55,7 +57,8 @@ a:hover {
 .logo{
 	align-content: left;
 	float: left;
-	width: 15%;
+	
+	height: 45px;
 	align-content: top;
 	padding-bottom: 20px;
 
